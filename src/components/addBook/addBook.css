@@ -1,0 +1,55 @@
+.addBook-container {
+
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.input-field {
+    border: 2px solid #46760A;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    outline: none;
+
+}
+.btn-add {
+    background-color: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 2rem;
+    color: #fff;
+    font-weight: 1.5;
+    transition-duration: 0.4ms;
+}
+.btn-add:hover {
+    background-color: #47ac29;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-add:active {
+    background-color: #47ac29;
+    box-shadow: 0 1px #555;
+    transform: translateY(4px);
+}
+.select-field {
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #46760A;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    margin-top: 0.5rem;
+    outline: none
+}

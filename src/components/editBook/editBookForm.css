@@ -1,0 +1,81 @@
+.edit-form-container {
+    margin: 2rem auto;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.input {
+    border: 2px solid #555;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    outline: none;
+
+}
+.btn-back {
+    background-color: #777777;
+    border: 2px solid #555;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 2rem;
+    color: #fff;
+    font-weight: 1.5;
+    transition-duration: 0.4ms;
+}
+
+.btn-back:hover {
+    background-color: #F9F9F9;
+    color: #777;
+    cursor: pointer;
+}
+.btn-back:active {
+    background-color: #F9F9F9;
+    box-shadow: 0 1px #555;
+    transform: translateY(4px);
+}
+.btn-edit {
+    background-color: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 2rem;
+    color: #fff;
+    font-weight: 1.5;
+    transition-duration: 0.4ms;
+}
+.btn-edit:hover {
+    background-color: #47ac29;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-edit:active {
+    background-color: #47ac29;
+    box-shadow: 0 1px #555;
+    transform: translateY(4px);
+}
+.select {
+    box-sizing: border-box;
+    border: 2px solid #555;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    margin-top: 0.5rem;
+    outline: none
+}
