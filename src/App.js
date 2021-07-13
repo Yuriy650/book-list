@@ -13,11 +13,13 @@ function App() {
     }
     return (
         <CounterContext.Provider value={counter}>
-            <div className="App">
+            <div className="app">
+                <div className='container'>
                 <BrowserRouter>
                     <Route path='/' component={Dashboard}/>
                     <Route path='/addbook' render={() => <AddBook toggleCounter={toggleCounter}/>}/>
                 </BrowserRouter>
+                </div>
             </div>
         </CounterContext.Provider>
     );

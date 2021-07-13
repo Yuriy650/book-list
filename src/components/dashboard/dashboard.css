@@ -1,62 +1,66 @@
 .dashboard-container {
-
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .dashboard-container__table {
-  margin-right: auto;
-  margin-left: auto;
-
+    margin-right: auto;
+    margin-left: auto;
 }
 
-tr, th, td{
-  padding: 1rem;
+tr, th, td {
+    padding: 1rem;
 }
 
 .btn-edit {
-  background-color: #6A983C;
-  border: 2px solid #46760A;
-  border-radius: 0.5rem;
-  padding: 0.5rem 1.8rem;
-  letter-spacing: 0.1rem;
-  margin: 1rem;
-  color: #fff;
-  font-weight: 1.5;
-  transition-duration: 0.4ms;
+    background-color: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.8rem;
+    letter-spacing: 0.1rem;
+    margin: 1rem;
+    color: #fff;
+    font-weight: 1.5;
+    transition-duration: 0.4ms;
 }
 
 .btn-edit:hover {
-  background-color: #47ac29;
-  color: #fff;
-  cursor: pointer;
+    background-color: #47ac29;
+    color: #fff;
+    cursor: pointer;
 }
+
 .btn-edit:active {
-  background-color: #47ac29;
-  box-shadow: 0 1px #555;
-  transform: translateY(4px);
+    background-color: #47ac29;
+    box-shadow: 0 1px #555;
+    transform: translateY(4px);
 }
+
 .btn-delete, .btn-new-book {
-  background-color: #F9F9F9;
-  color: #555;
-  border: 2px solid #777;
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  margin: 1rem;
-  font-weight: 1.5;
-  transition-duration: 0.4s;
+    background-color: #F9F9F9;
+    color: #555;
+    border: 2px solid #777;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-weight: 1.5;
+    transition-duration: 0.4s;
 }
-.btn-delete:hover{
-  background-color: #777;
-  color: #fff;
-  cursor: pointer;
+
+.btn-delete:hover {
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
 }
+
 .btn-delete:active {
-  background-color: #555;
-  box-shadow: 0 1px #555;
-  transform: translateY(4px);
+    background-color: #555;
+    box-shadow: 0 1px #555;
+    transform: translateY(4px);
 }
 
 .btn-new-book:hover {
-  background-color: #6A983C;
-  color: #fff;
-  cursor: pointer;
+    background-color: #6A983C;
+    color: #fff;
+    cursor: pointer;
 }
